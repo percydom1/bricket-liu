@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #006400;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #228B22;
+}
+
+nav a.aktif {
+  background-color: white;
+  color: #006400;
+  font-weight: bold;
+}
+
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.gambar {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #006400;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.dua-kolom {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Supaya responsif di layar kecil */
+}
+
+.gambar-kiri {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.teks-kanan {
+  max-width: 500px;
+}
+.gambar-kiri {
+  flex: 1;
+}
+.teks-kanan {
+  flex: 2;
+}
+.tiga-kolom {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.kartu {<img src="gambar.jpg" alt="Layanan" style="width:100%; border-radius:8px;">
+
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px; /* min lebar 250px, fleksibel */
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.animasi {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+.animasi.muncul {
+  opacity: 1;
+  transform: translateY(0);
+}

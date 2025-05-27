@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Briket Kelapa Pontianak</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Briket Kelapa Liu Pontianak</h1>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="tentang">
+  <h2>Tentang Kami</h2>
+  <div class="dua-kolom" animasi">
+    <img src="briket.jpg" alt="Briket Kelapa" class="gambar-kiri">
+    <div class="teks-kanan">
+      <p>Kami adalah produsen dan eksportir briket kelapa berkualitas dari Pontianak, Kalimantan Barat. Produk kami ramah lingkungan dan telah diekspor ke berbagai negara.</p>
+      <p>Kami melayani pemesanan partai besar maupun kecil, dengan kualitas ekspor dan pelayanan cepat.</p>
+    </div>
+  </div>
+</section><section id="layanan">
+  <h2>Layanan Kami</h2>
+  <div class="tiga-kolom">
+    <div class="kartu">
+      <h3>Produksi Briket</h3>
+      <p>Kami memproduksi briket dari tempurung kelapa berkualitas tinggi.</p>
+    </div>
+    <div class="kartu">
+      <h3>Ekspor Internasional</h3>
+      <p>Melayani pengiriman ke berbagai negara dengan dokumen lengkap.</p>
+    </div>
+    <div class="kartu">
+      <h3>Custom Branding</h3>
+      <p>Briket bisa dikemas dengan merk dan desain milik pembeli.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <form onsubmit="return kirimForm()">
+      <label for="nama">Nama:</label><br>
+      <input type="text" id="nama" name="nama" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="pesan">Pesan:</label><br>
+      <textarea id="pesan" name="pesan" rows="5" required></textarea><br><br>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Briket Kelapa Pontianak</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<nav>
+  <a href="index.html" class="aktif">Beranda</a>
+  <a href="produk.html">Produk</a><nav><div class="kartu animasi">
+  <img src="img/briket1.jpg" alt="..." class="gambar-produk">
+  <h3>Briket Hexagonal</h3>
+  <p>...</p>
+</div>
+
+  <a href="index.html">Beranda</a>
+  <a href="produk.html" class="aktif">Produk</a>
+  <a href="index.html#kontak">Kontak</a>
+</nav>
+
+  <a href="#kontak">Kontak</a>
+</nav>
